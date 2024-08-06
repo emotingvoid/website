@@ -8,9 +8,9 @@ import {Anek_Gurmukhi} from "next/font/google";
 const arya = Arya({ subsets: ['latin'], weight: ["400", "700"] });
 const anek = Anek_Gurmukhi({ subsets: ['latin'], weight: ["400", "700"] })
 
-import Anish from "@/assets/Anish.jpg"
-import Ayushi from "@/assets/Ayushi.jpg"
-import Mohit from "@/assets/Mohit.jpg"
+import Anish from "@/assets/ANISH.jpg"
+import Ayushi from "@/assets/AYUSHI.jpg"
+import Mohit from "@/assets/MOHIT.jpg"
 
 export const Founders = ({ isMobile }) => {
     return (
