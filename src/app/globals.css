@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.current {
+    transform: translateX(0);
+    z-index: 10;
+  }
+  
+  .next {
+    transform: translateX(320px);
+    z-index: 5;
+  }
+  
+  .prev {
+    transform: translateX(-320px);
+    z-index: 5;
+  }
+  
+  .card-hidden {
+    transform: translateX(-640px);
+    z-index: 0;
+  }
+  
+  .floating-nav {
+    margin-top: 3rem;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(188, 161, 132, 0.7);
+    transition: all 0.7s ease-in-out;
+  }
+  
+  .fixed-nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(188, 161, 132, 0.95);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.7s ease-in-out;
+  }
+
+  .justify-last-center {
+    text-align: justify;
+    text-align-last: center;
+  }
+  
