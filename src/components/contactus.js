@@ -76,7 +76,7 @@ export const ContactUs = () => {
                         <div className="w-full">
                             <h4 className="font-semibold text-sm md:text-xl hidden md:block">Social</h4>
                             <div className="flex space-x-4">
-                                <a href="https://instagram.com/emoting_void" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400">
+                                <a href="https://instagram.com/emotingvoid" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400">
                                     <FaInstagramSquare className="text-4xl md:text-xl" />
                                 </a>
                                 <a href="https://www.facebook.com/profile.php?id=61551241550407" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
