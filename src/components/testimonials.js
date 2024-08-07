@@ -65,7 +65,7 @@ export const Testimonials = ({ isMobile }) => {
     });
 
     return (
-        <div className="relative h-[70vh] bg-[#F6F6F6] flex flex-col items-center justify-center text-center text-[#33383D]" {...handlers}>
+        <div className="relative h-[85vh] bg-[#F6F6F6] flex flex-col items-center justify-center text-center text-[#33383D]" {...handlers}>
             <h1 className={`${arya.className} hidden md:block text-3xl md:text-5xl mb-20 text-[#BCA184]`}>
                 WHAT OUR <span className="text-[#33383D]">CLIENTS</span> SAYS ABOUT US?
             </h1>
@@ -78,7 +78,7 @@ export const Testimonials = ({ isMobile }) => {
                     {getVisibleTestimonials().map((testimonial, index) => (
                         <div
                             key={index}
-                            className="w-[70vw] h-[90vw] md:w-[20vw] md:h-[20vw] flex flex-col justify-between p-6 border-2 border-[#33383D] transition-opacity duration-500 ease-in-out transform opacity-100"
+                            className="w-[70vw] h-[90vw] md:w-[20vw] md:h-[25vw] flex flex-col justify-between p-6 border-2 border-[#33383D] transition-opacity duration-500 ease-in-out transform opacity-100"
                         >
                             <div className="flex justify-center mb-5">
                                 <svg width="39" height="28" viewBox="0 0 39 28" fill="none" xmlns="http://www.w3.org/2000/svg">
